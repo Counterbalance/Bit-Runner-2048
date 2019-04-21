@@ -32,7 +32,7 @@ public class Referee extends AbstractReferee {
 
         gameManager.setMaxTurns(250);
         gameManager.setFrameDuration(228);
-        gameManager.setTurnMaxTime(50);
+        gameManager.setTurnMaxTime(Integer.parseInt(params.getProperty("timeout", "50")));
 
         game = new Game(Constants.NUM_CARS, Constants.NUM_BALLS, gameManager.getPlayers());
 
