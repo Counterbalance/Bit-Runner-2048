@@ -4,7 +4,7 @@
 
 	<groupId>com.codingame.com</groupId>
 	<artifactId>skeleton</artifactId>
-	<version>1.0-cli-1</version>
+	<version>1.0-cli-2</version>
 
     <properties>
         <!--gamengine.version>3.4.5</gamengine.version-->
